@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transaction table</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="container">
+      <div class="logo">
+        <h2>Pelznotion Printing Hub</h2>
+        <button class="back-btn" id="btn" type="button">
+          Change Background
+        </button>
+      </div>
+    </nav>
+    <div class="table-widget">
+      <div class="caption">
+        <h2>Team Members</h2>
+        <button class="export-btn" type="button">
+          <svg
+            fill="#ffffff"
+            height="200px"
+            width="200px"
+            version="1.1"
+            id="Capa_1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 0 493.525 493.525"
+            xml:space="preserve"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <g id="XMLID_30_">
+                <path
+                  id="XMLID_32_"
+                  d="M430.557,79.556H218.44c21.622,12.688,40.255,29.729,54.859,49.906h157.258 c7.196,0,13.063,5.863,13.063,13.06v238.662c0,7.199-5.866,13.064-13.063,13.064H191.894c-7.198,0-13.062-5.865-13.062-13.064 V222.173c-6.027-3.1-12.33-5.715-18.845-7.732c-3.818,11.764-12.105,21.787-23.508,27.781c-2.39,1.252-4.987,2.014-7.554,2.844 v136.119c0,34.717,28.25,62.971,62.968,62.971h238.663c34.718,0,62.969-28.254,62.969-62.971V142.522 C493.525,107.806,465.275,79.556,430.557,79.556z"
+                ></path>
+                <path
+                  id="XMLID_31_"
+                  d="M129.037,175.989c51.419,1.234,96.388,28.283,122.25,68.865c2.371,3.705,6.434,5.848,10.657,5.848 c1.152,0,2.322-0.162,3.46-0.486c5.377-1.545,9.114-6.418,9.179-12.006c0-0.504,0-1.01,0-1.51 c0-81.148-64.853-147.023-145.527-148.957V64.155c0-5.492-3.038-10.512-7.879-13.078c-2.16-1.139-4.533-1.707-6.889-1.707 c-2.94,0-5.848,0.88-8.35,2.584L5.751,120.526C2.162,122.98,0.018,127.041,0,131.394c-0.017,4.338,2.113,8.418,5.687,10.902 l100.17,69.451c2.518,1.753,5.459,2.631,8.414,2.631c2.355,0,4.696-0.553,6.857-1.676c4.855-2.549,7.909-7.6,7.909-13.092V175.989z "
+                ></path>
+              </g>
+            </g>
+          </svg>
+          Export
+        </button>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Status</th>
+            <th>Email address</th>
+            <th>Tags</th>
+          </tr>
+        </thead>
+        <tbody class="team-member-rows">
+          <tr>
+            <td class="team-member-profile">
+              <img src="assets/pelz.JPG" alt="pelz avatar" />
+              <div class="profile-info">
+                <div class="profile-info__name">Adeniyi Adejare</div>
+                <div class="profile-info__alias">@pelznotion</div>
+              </div>
+            </td>
+            <td>
+              <div class="status">
+                <div class="status__circle status--active"></div>
+                active
+              </div>
+            </td>
+            <td>pelznotionagmail.com</td>
+            <td>
+              <div class="tags">
+                <div class="tag tag--dev">Developer</div>
+                <div class="tag tag--QA">QA</div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="team-member-profile">
+              <img src="assets/remi.jpg" alt="pelz avatar" />
+              <div class="profile-info">
+                <div class="profile-info__name">Remilekun Adeniyi</div>
+                <div class="profile-info__alias">@rema</div>
+              </div>
+            </td>
+            <td>
+              <div class="status">
+                <div class="status__circle status--inactive"></div>
+                inactive
+              </div>
+            </td>
+            <td>remilekun@gmail.com</td>
+            <td>
+              <div class="tags">
+                <div class="tag tag--design">Teaching</div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="team-member-profile">
+              <img src="assets/ope.jpg" alt="ope avatar" />
+              <div class="profile-info">
+                <div class="profile-info__name">Opeyemi Oluwalusi</div>
+                <div class="profile-info__alias">@Opeyemi</div>
+              </div>
+            </td>
+            <td>
+              <div class="status">
+                <div class="status__circle status--offline"></div>
+                offline
+              </div>
+            </td>
+            <td>opeyemi@gmail.com</td>
+            <td>
+              <div class="tags">
+                <div class="tag tag--marketing">Marketing</div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <script src="hex.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
